@@ -563,8 +563,13 @@ public:
         assert(consensus.hashGenesisBlock == uint256S("0xd5c3dac54baf6bb096d7568b00f8ca9350966fa5df76b542a1ec00e493fbb63e"));
         assert(genesis.hashMerkleRoot == uint256S("0x5843c1fd851cb30bf3720c45dd73515005d3ed64f2bed11558c9ce1737b42a69"));
 
-        vSeeds.emplace_back("seed.bitfishcoin.org");
-        vSeeds.emplace_back("btsc.seed01.eu.org");
+        vSeeds.emplace_back("seed01.bitfishcoin.cloud");
+        vSeeds.emplace_back("seed02.bitfishcoin.cloud");
+        vSeeds.emplace_back("seed03.bitfishcoin.cloud");
+        vSeeds.emplace_back("seed04.bitfishcoin.cloud");
+        vSeeds.emplace_back("seed05.bitfishcoin.cloud");
+
+        vSeeds.emplace_back("dnsseed.bitfishcoin.cloud");
 
         // Bitfishcoin addresses start with 'L'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,26);
