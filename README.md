@@ -1,5 +1,6 @@
 # Bitfishcoin (BTSC)
 The wallet core is being integrated to allow most GR-based coins to run in a single wallet and be compatible with multiple chains.
+https://www.bitfishcoin.cloud/
 ## BitcoinTalks
 https://bitcointalk.org/index.php?topic=5505932.0
 ## Addnode 
